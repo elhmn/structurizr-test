@@ -3,7 +3,7 @@ workspace {
     model {
         user = person "User" "A Software Developer, trying to deploy his application"
         ciSystem = softwareSystem "CI" "CI jobs setup on a GitHub repository" {
-            tags "githubRepository, github"
+            tags "ci"
         }
 
         infrastructure = softwareSystem "Infrastructure" "Where the applications are deployed and run" {
@@ -24,44 +24,24 @@ workspace {
 
         artifactManagmentSystem = softwareSystem "Artifact Management System" "The system responsible for creating and managing our artifacts" {
             ciArtifactCreatorContainer = container "CI Artifact Creator" "Creates an artifact, ex: docker images, static files, modules" "GitHub Action" {
-                tags "github, jobRunner"
-            }
-
-            ciArtifactRegisterContainer = container "CI Artifact Register" "Register the generated artifact in the system" "GitHub Action" {
-                tags "github, jobRunner"
+                tags "github"
             }
 
             ciDeploymentRequestContainer = container "CI Deployment Request" "Request the deployment of an artifacts to a staging environment" "GitHub Action" {
-                tags "github, jobRunner"
-            }
-
-            uiContainer = container "Web UI artifact visualiser" "Web interface to see a list of artifact and request their deployment on specific environments"{
-                tags "webui"
-            }
-
-            apiContainer = container "API" "Store and Get artifact's metadata and events. Trigger artifacts deployment" {
-                tags "api"
+                tags "github"
             }
 
             artifactRegistryContainer = container "Artifact Registry" "A place to store our artifacts" "ECR | GCR | Artifactory"
-            storageContainer = container "Storage" {
-                tags "storage"
-            }
         }
 
 //artifactManagmentSystem containers relationships
         ciArtifactCreatorContainer -> artifactRegistryContainer "Pushes artifact to"
-        ciArtifactRegisterContainer -> apiContainer "Makes API Calls to" "JSON/HTTPS"
-        ciDeploymentRequestContainer -> apiContainer "Makes API Calls to" "JSON/HTTPS"
-        uiContainer -> apiContainer "Makes API Calls to" "JSON/HTTPS"
-        apiContainer -> deploymentRepoContainer "Trigger deployment" "JSON/HTTPS"
-        apiContainer -> storageContainer "Store and Get artifact metadata"
+        ciDeploymentRequestContainer -> deploymentRepoContainer "Trigger deployment" "JSON/HTTPS"
         swarmContainer -> artifactRegistryContainer "Pull artifact metadata from"
 
-        ciSystem -> ciArtifactRegisterContainer "Sends artifact metadata"
         ciSystem -> ciDeploymentRequestContainer "Request deployment"
         ciSystem -> ciArtifactCreatorContainer "Create artifact"
-        user -> uiContainer "Request deployment"
+        user -> deploymentRepoContainer "Request deployment" "JSON/HTTPS"
 
 
         deploymentRepoContainer -> webhookContainer "Request a deployment" "JSON/HTTPS"
@@ -76,7 +56,6 @@ workspace {
 
         container artifactManagmentSystem "AMS-Containers" {
             include *
-            autoLayout lr
         }
 
         container infrastructure "Infrastructure" {
@@ -119,6 +98,7 @@ workspace {
 
            element githubRepository {
                shape Folder
+                icon "https://img.icons8.com/ios-glyphs/30/000000/github.png"
             }
 
             element github {
@@ -129,16 +109,9 @@ workspace {
                 icon "https://img.icons8.com/external-xnimrodx-blue-xnimrodx/64/000000/external-server-online-marketing-xnimrodx-blue-xnimrodx-2.png"
             }
 
-            element ci-old {
+            element ci {
                 icon "https://img.icons8.com/ios-filled/50/4a90e2/circuit.png"
             }
-
-
-            element jobRunner {
-                shape Hexagon
-            }
-
-
         }
 
         theme default

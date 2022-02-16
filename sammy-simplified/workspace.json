@@ -1,0 +1,400 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "revision" : 0,
+  "lastModifiedDate" : "2022-02-16T20:17:08Z",
+  "lastModifiedAgent" : "structurizr-web/2649/diagram",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgdXNlciA9IHBlcnNvbiAiVXNlciIgIkEgU29mdHdhcmUgRGV2ZWxvcGVyLCB0cnlpbmcgdG8gZGVwbG95IGhpcyBhcHBsaWNhdGlvbiIKICAgICAgICBjaVN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJDSSIgIkNJIGpvYnMgc2V0dXAgb24gYSBHaXRIdWIgcmVwb3NpdG9yeSIgewogICAgICAgICAgICB0YWdzICJjaSIKICAgICAgICB9CgogICAgICAgIGluZnJhc3RydWN0dXJlID0gc29mdHdhcmVTeXN0ZW0gIkluZnJhc3RydWN0dXJlIiAiV2hlcmUgdGhlIGFwcGxpY2F0aW9ucyBhcmUgZGVwbG95ZWQgYW5kIHJ1biIgewogICAgICAgICAgICB0YWdzICJpbmZyYXN0cnVjdHVyZSIKCiAgICAgICAgICAgIGRlcGxveW1lbnRSZXBvQ29udGFpbmVyID0gY29udGFpbmVyICJEZXBsb3ltZW50IFJlcG9zaXRvcnkiICJDb250YWlucyBhcHBsaWNhdGlvbidzIGRlcGxveSBtYW5pZmVzdHMiICJHaXRIdWIgcmVwb3NpdG9yeSIgewogICAgICAgICAgICAgICAgdGFncyAiZ2l0aHViUmVwb3NpdG9yeSwgZ2l0aHViIgogICAgICAgICAgICB9CgogICAgICAgICAgICB3ZWJob29rQ29udGFpbmVyID0gY29udGFpbmVyICJXZWJob29rIGluc3RhbmNlIiAiQXBwbGljYXRpb24gd2FpdGluZyBmb3IgaHR0cCBjYWxsLCBhbmQgZXhlY3V0ZSBjb21tYW5kcyBvbiB5b3VyIFZQUyIgewogICAgICAgICAgICAgICAgdGFncyAid2ViaG9vayIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgc3dhcm1Db250YWluZXIgPSBjb250YWluZXIgIlN3YXJtIGNsdXN0ZXJzIiAiVGhlIFN3YXJtIGluZnJhc3RydWN0dXJlIG91ciBhcHBsaWNhdGlvbiBhcmUgZGVwbG95ZWQgdG8iIHsKICAgICAgICAgICAgICAgIHRhZ3MgInN3YXJtIgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBhcnRpZmFjdE1hbmFnbWVudFN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJBcnRpZmFjdCBNYW5hZ2VtZW50IFN5c3RlbSIgIlRoZSBzeXN0ZW0gcmVzcG9uc2libGUgZm9yIGNyZWF0aW5nIGFuZCBtYW5hZ2luZyBvdXIgYXJ0aWZhY3RzIiB7CiAgICAgICAgICAgIGNpQXJ0aWZhY3RDcmVhdG9yQ29udGFpbmVyID0gY29udGFpbmVyICJDSSBBcnRpZmFjdCBDcmVhdG9yIiAiQ3JlYXRlcyBhbiBhcnRpZmFjdCwgZXg6IGRvY2tlciBpbWFnZXMsIHN0YXRpYyBmaWxlcywgbW9kdWxlcyIgIkdpdEh1YiBBY3Rpb24iIHsKICAgICAgICAgICAgICAgIHRhZ3MgImdpdGh1YiIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgY2lEZXBsb3ltZW50UmVxdWVzdENvbnRhaW5lciA9IGNvbnRhaW5lciAiQ0kgRGVwbG95bWVudCBSZXF1ZXN0IiAiUmVxdWVzdCB0aGUgZGVwbG95bWVudCBvZiBhbiBhcnRpZmFjdHMgdG8gYSBzdGFnaW5nIGVudmlyb25tZW50IiAiR2l0SHViIEFjdGlvbiIgewogICAgICAgICAgICAgICAgdGFncyAiZ2l0aHViIgogICAgICAgICAgICB9CgogICAgICAgICAgICBhcnRpZmFjdFJlZ2lzdHJ5Q29udGFpbmVyID0gY29udGFpbmVyICJBcnRpZmFjdCBSZWdpc3RyeSIgIkEgcGxhY2UgdG8gc3RvcmUgb3VyIGFydGlmYWN0cyIgIkVDUiB8IEdDUiB8IEFydGlmYWN0b3J5IgogICAgICAgIH0KCi8vYXJ0aWZhY3RNYW5hZ21lbnRTeXN0ZW0gY29udGFpbmVycyByZWxhdGlvbnNoaXBzCiAgICAgICAgY2lBcnRpZmFjdENyZWF0b3JDb250YWluZXIgLT4gYXJ0aWZhY3RSZWdpc3RyeUNvbnRhaW5lciAiUHVzaGVzIGFydGlmYWN0IHRvIgogICAgICAgIGNpRGVwbG95bWVudFJlcXVlc3RDb250YWluZXIgLT4gZGVwbG95bWVudFJlcG9Db250YWluZXIgIlRyaWdnZXIgZGVwbG95bWVudCIgIkpTT04vSFRUUFMiCiAgICAgICAgc3dhcm1Db250YWluZXIgLT4gYXJ0aWZhY3RSZWdpc3RyeUNvbnRhaW5lciAiUHVsbCBhcnRpZmFjdCBtZXRhZGF0YSBmcm9tIgoKICAgICAgICBjaVN5c3RlbSAtPiBjaURlcGxveW1lbnRSZXF1ZXN0Q29udGFpbmVyICJSZXF1ZXN0IGRlcGxveW1lbnQiCiAgICAgICAgY2lTeXN0ZW0gLT4gY2lBcnRpZmFjdENyZWF0b3JDb250YWluZXIgIkNyZWF0ZSBhcnRpZmFjdCIKICAgICAgICB1c2VyIC0+IGRlcGxveW1lbnRSZXBvQ29udGFpbmVyICJSZXF1ZXN0IGRlcGxveW1lbnQiICJKU09OL0hUVFBTIgoKCiAgICAgICAgZGVwbG95bWVudFJlcG9Db250YWluZXIgLT4gd2ViaG9va0NvbnRhaW5lciAiUmVxdWVzdCBhIGRlcGxveW1lbnQiICJKU09OL0hUVFBTIgogICAgICAgIHdlYmhvb2tDb250YWluZXIgLT4gc3dhcm1Db250YWluZXIgIkRlcGxveSBhcHBsaWNhdGlvbnMgdG8iCiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgYXJ0aWZhY3RNYW5hZ21lbnRTeXN0ZW0gIkFNUy1Db250ZXh0IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0IGxyCiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgYXJ0aWZhY3RNYW5hZ21lbnRTeXN0ZW0gIkFNUy1Db250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIGluZnJhc3RydWN0dXJlICJJbmZyYXN0cnVjdHVyZSIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICB9CgogICAgICAgIHN0eWxlcyB7CgogICAgICAgICAgICBlbGVtZW50ICJTb2Z0d2FyZSBTeXN0ZW0iIHsKICAgICAgICAgICAgICAgIHNoYXBlIEJveAogICAgICAgICAgICAgICAgQmFja2dyb3VuZCAjZWVlZWVlCiAgICAgICAgICAgICAgICBjb2xvciAjMDAwMDAwCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgIlBlcnNvbiIgewogICAgICAgICAgICAgICAgQmFja2dyb3VuZCAjY2NjY2NjCiAgICAgICAgICAgICAgICBjb2xvciAjMDAwMDAwCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgQ29udGFpbmVyIHsKICAgICAgICAgICAgICAgIEJhY2tncm91bmQgI2ZmZmZmZgogICAgICAgICAgICAgICAgQ29sb3VyICM3MDcwNzAKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCB3ZWJ1aSB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgc3RvcmFnZSB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50IHN3YXJtIHsKICAgICAgICAgICAgICAgIGljb24gImh0dHBzOi8vaW1nLmljb25zOC5jb20vY29sb3IvNTAvMDAwMDAwL2RvY2tlci5wbmciCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVsZW1lbnQgd2ViaG9vayB7CiAgICAgICAgICAgICAgICBpY29uICJodHRwczovL2ltZy5pY29uczguY29tL2NvbG9yLzQ4LzAwMDAwMC93ZWJob29rLnBuZyIKICAgICAgICAgICAgfQoKICAgICAgICAgICBlbGVtZW50IGdpdGh1YlJlcG9zaXRvcnkgewogICAgICAgICAgICAgICBzaGFwZSBGb2xkZXIKICAgICAgICAgICAgICAgIGljb24gImh0dHBzOi8vaW1nLmljb25zOC5jb20vaW9zLWdseXBocy8zMC8wMDAwMDAvZ2l0aHViLnBuZyIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCBnaXRodWIgewogICAgICAgICAgICAgICAgaWNvbiAiaHR0cHM6Ly9pbWcuaWNvbnM4LmNvbS9pb3MtZ2x5cGhzLzMwLzAwMDAwMC9naXRodWIucG5nIgogICAgICAgICAgICB9CgogICAgICAgICAgICBlbGVtZW50IGluZnJhc3RydWN0dXJlIHsKICAgICAgICAgICAgICAgIGljb24gImh0dHBzOi8vaW1nLmljb25zOC5jb20vZXh0ZXJuYWwteG5pbXJvZHgtYmx1ZS14bmltcm9keC82NC8wMDAwMDAvZXh0ZXJuYWwtc2VydmVyLW9ubGluZS1tYXJrZXRpbmcteG5pbXJvZHgtYmx1ZS14bmltcm9keC0yLnBuZyIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxlbWVudCBjaSB7CiAgICAgICAgICAgICAgICBpY29uICJodHRwczovL2ltZy5pY29uczguY29tL2lvcy1maWxsZWQvNTAvNGE5MGUyL2NpcmN1aXQucG5nIgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB0aGVtZSBkZWZhdWx0Cgp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "name" : "User",
+      "description" : "A Software Developer, trying to deploy his application",
+      "relationships" : [ {
+        "id" : "23",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "Request deployment",
+        "technology" : "JSON/HTTPS",
+        "defaultTags" : [ "Relationship" ]
+      }, {
+        "id" : "24",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "Request deployment",
+        "technology" : "JSON/HTTPS",
+        "defaultTags" : [ "Relationship" ]
+      } ],
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Person" ]
+    } ],
+    "softwareSystems" : [ {
+      "id" : "7",
+      "tags" : "Element,Software System",
+      "name" : "Artifact Management System",
+      "description" : "The system responsible for creating and managing our artifacts",
+      "relationships" : [ {
+        "id" : "15",
+        "tags" : "Relationship",
+        "sourceId" : "7",
+        "destinationId" : "3",
+        "description" : "Trigger deployment",
+        "technology" : "JSON/HTTPS",
+        "defaultTags" : [ "Relationship" ]
+      }, {
+        "id" : "14",
+        "tags" : "Relationship",
+        "sourceId" : "7",
+        "destinationId" : "4",
+        "description" : "Trigger deployment",
+        "technology" : "JSON/HTTPS",
+        "defaultTags" : [ "Relationship" ]
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "9",
+        "tags" : "Element,Container,github",
+        "name" : "CI Deployment Request",
+        "description" : "Request the deployment of an artifacts to a staging environment",
+        "relationships" : [ {
+          "id" : "13",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "3",
+          "description" : "Trigger deployment",
+          "technology" : "JSON/HTTPS",
+          "defaultTags" : [ "Relationship" ]
+        }, {
+          "id" : "12",
+          "tags" : "Relationship",
+          "sourceId" : "9",
+          "destinationId" : "4",
+          "description" : "Trigger deployment",
+          "technology" : "JSON/HTTPS",
+          "defaultTags" : [ "Relationship" ]
+        } ],
+        "technology" : "GitHub Action",
+        "defaultTags" : [ "Element", "Container" ]
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container",
+        "name" : "Artifact Registry",
+        "description" : "A place to store our artifacts",
+        "technology" : "ECR | GCR | Artifactory",
+        "defaultTags" : [ "Element", "Container" ]
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container,github",
+        "name" : "CI Artifact Creator",
+        "description" : "Creates an artifact, ex: docker images, static files, modules",
+        "relationships" : [ {
+          "id" : "11",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "10",
+          "description" : "Pushes artifact to",
+          "defaultTags" : [ "Relationship" ]
+        } ],
+        "technology" : "GitHub Action",
+        "defaultTags" : [ "Element", "Container" ]
+      } ],
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "2",
+      "tags" : "Element,Software System,ci",
+      "name" : "CI",
+      "description" : "CI jobs setup on a GitHub repository",
+      "relationships" : [ {
+        "id" : "22",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "8",
+        "description" : "Create artifact",
+        "defaultTags" : [ "Relationship" ]
+      }, {
+        "id" : "20",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "9",
+        "description" : "Request deployment",
+        "defaultTags" : [ "Relationship" ]
+      }, {
+        "id" : "21",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "7",
+        "description" : "Request deployment",
+        "defaultTags" : [ "Relationship" ]
+      } ],
+      "location" : "Unspecified",
+      "defaultTags" : [ "Element", "Software System" ]
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,infrastructure",
+      "name" : "Infrastructure",
+      "description" : "Where the applications are deployed and run",
+      "relationships" : [ {
+        "id" : "18",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "10",
+        "description" : "Pull artifact metadata from",
+        "defaultTags" : [ "Relationship" ]
+      }, {
+        "id" : "19",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "7",
+        "description" : "Pull artifact metadata from",
+        "defaultTags" : [ "Relationship" ]
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "6",
+        "tags" : "Element,Container,swarm",
+        "name" : "Swarm clusters",
+        "description" : "The Swarm infrastructure our application are deployed to",
+        "relationships" : [ {
+          "id" : "16",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "10",
+          "description" : "Pull artifact metadata from",
+          "defaultTags" : [ "Relationship" ]
+        }, {
+          "id" : "17",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "7",
+          "description" : "Pull artifact metadata from",
+          "defaultTags" : [ "Relationship" ]
+        } ],
+        "defaultTags" : [ "Element", "Container" ]
+      }, {
+        "id" : "4",
+        "tags" : "Element,Container,githubRepository,github",
+        "name" : "Deployment Repository",
+        "description" : "Contains application's deploy manifests",
+        "relationships" : [ {
+          "id" : "25",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "5",
+          "description" : "Request a deployment",
+          "technology" : "JSON/HTTPS",
+          "defaultTags" : [ "Relationship" ]
+        } ],
+        "technology" : "GitHub repository",
+        "defaultTags" : [ "Element", "Container" ]
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container,webhook",
+        "name" : "Webhook instance",
+        "description" : "Application waiting for http call, and execute commands on your VPS",
+        "relationships" : [ {
+          "id" : "26",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "6",
+          "description" : "Deploy applications to",
+          "defaultTags" : [ "Relationship" ]
+        } ],
+        "defaultTags" : [ "Element", "Container" ]
+      } ],
+      "defaultTags" : [ "Element", "Software System" ]
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "softwareSystemId" : "7",
+      "key" : "AMS-Context",
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2366,
+        "height" : 716
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "2",
+        "x" : 207,
+        "y" : 195
+      }, {
+        "id" : "3",
+        "x" : 1707,
+        "y" : 195
+      }, {
+        "id" : "7",
+        "x" : 957,
+        "y" : 195
+      } ],
+      "relationships" : [ {
+        "id" : "15",
+        "vertices" : [ {
+          "x" : 1557,
+          "y" : 495
+        } ]
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "19",
+        "vertices" : [ {
+          "x" : 1557,
+          "y" : 195
+        } ]
+      } ]
+    } ],
+    "containerViews" : [ {
+      "softwareSystemId" : "3",
+      "key" : "Infrastructure",
+      "dimensions" : {
+        "width" : 3108,
+        "height" : 1793
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 174,
+        "y" : 273
+      }, {
+        "id" : "4",
+        "x" : 978,
+        "y" : 742
+      }, {
+        "id" : "5",
+        "x" : 1728,
+        "y" : 900
+      }, {
+        "id" : "6",
+        "x" : 2480,
+        "y" : 1060
+      }, {
+        "id" : "7",
+        "x" : 160,
+        "y" : 1220
+      } ],
+      "relationships" : [ {
+        "id" : "17",
+        "vertices" : [ {
+          "x" : 2708,
+          "y" : 1367
+        } ]
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "14",
+        "vertices" : [ {
+          "x" : 388,
+          "y" : 897
+        } ]
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "23"
+      } ]
+    }, {
+      "softwareSystemId" : "7",
+      "key" : "AMS-Containers",
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2470,
+        "height" : 2020
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "2",
+        "x" : 245,
+        "y" : 705
+      }, {
+        "id" : "3",
+        "x" : 1750,
+        "y" : 1650
+      }, {
+        "id" : "8",
+        "x" : 995,
+        "y" : 405
+      }, {
+        "id" : "9",
+        "x" : 995,
+        "y" : 1005
+      }, {
+        "id" : "10",
+        "x" : 1745,
+        "y" : 405
+      } ],
+      "relationships" : [ {
+        "id" : "18"
+      }, {
+        "id" : "13"
+      }, {
+        "id" : "11"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "20"
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Software System",
+          "background" : "#eeeeee",
+          "color" : "#000000",
+          "shape" : "Box"
+        }, {
+          "tag" : "Person",
+          "background" : "#cccccc",
+          "color" : "#000000"
+        }, {
+          "tag" : "Container",
+          "background" : "#ffffff",
+          "color" : "#707070"
+        }, {
+          "tag" : "webui",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "storage",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "swarm",
+          "icon" : "https://img.icons8.com/color/50/000000/docker.png"
+        }, {
+          "tag" : "webhook",
+          "icon" : "https://img.icons8.com/color/48/000000/webhook.png"
+        }, {
+          "tag" : "githubRepository",
+          "shape" : "Folder",
+          "icon" : "https://img.icons8.com/ios-glyphs/30/000000/github.png"
+        }, {
+          "tag" : "github",
+          "icon" : "https://img.icons8.com/ios-glyphs/30/000000/github.png"
+        }, {
+          "tag" : "infrastructure",
+          "icon" : "https://img.icons8.com/external-xnimrodx-blue-xnimrodx/64/000000/external-server-online-marketing-xnimrodx-blue-xnimrodx-2.png"
+        }, {
+          "tag" : "ci",
+          "icon" : "https://img.icons8.com/ios-filled/50/4a90e2/circuit.png"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
+      "terminology" : { },
+      "lastSavedView" : "AMS-Containers"
+    }
+  }
+}
