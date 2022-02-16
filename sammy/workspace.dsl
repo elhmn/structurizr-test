@@ -3,7 +3,19 @@ workspace {
     model {
         user = person "User" "A Software Developer, trying to deploy his application"
         ciSystem = softwareSystem "CI" "CI jobs setup on a GitHub repository"
-        infrastructure = softwareSystem "Infrastructure" "Where the applications are deployed and run"
+        infrastructure = softwareSystem "Infrastructure" "Where the applications are deployed and run" {
+            deploymentRepoContainer = container "Deployment Repository" "Contains application's deploy manifests" "GitHub repository" {
+                tags "githubRepository"
+            }
+
+            webhookContainer = container "Webhook instance" "Application waiting for http call, and execute commands on your VPS" {
+                tags "webhook"
+            }
+
+            swarmContainer = container "Swarm clusters" "The Swarm infrastructure our application are deployed to" {
+                tags "swarm"
+            }
+        }
 
         artifactManagmentSystem = softwareSystem "Artifact Management System" "The system responsible for creating and managing our artifacts" {
             ciArtifactCreatorContainer = container "CI Artifact Creator" "Creates an artifact, ex: docker images, static files, modules" "GitHub Action"
@@ -24,14 +36,18 @@ workspace {
         ciArtifactRegisterContainer -> apiContainer "Makes API Calls to" "JSON/HTTPS"
         ciDeploymentRequestContainer -> apiContainer "Makes API Calls to" "JSON/HTTPS"
         uiContainer -> apiContainer "Makes API Calls to" "JSON/HTTPS"
-        apiContainer -> infrastructure "Trigger deployment" "JSON/HTTPS"
+        apiContainer -> deploymentRepoContainer "Trigger deployment" "JSON/HTTPS"
         apiContainer -> storageContainer "Store and Get artifact metadata"
-        infrastructure -> artifactRegistryContainer "Pull artifact metadata"
+        swarmContainer -> artifactRegistryContainer "Pull artifact metadata from"
 
         ciSystem -> ciArtifactRegisterContainer "Sends artifact metadata"
         ciSystem -> ciDeploymentRequestContainer "Request deployment"
         ciSystem -> ciArtifactCreatorContainer "Create artifact"
         user -> uiContainer "Request deployment"
+
+
+        deploymentRepoContainer -> webhookContainer "Request a deployment" "JSON/HTTPS"
+        webhookContainer -> swarmContainer "Deploy applications to"
     }
 
     views {
@@ -43,6 +59,10 @@ workspace {
         container artifactManagmentSystem "AMS-Containers" {
             include *
             autoLayout lr
+        }
+
+        container infrastructure "Infrastructure" {
+            include *
         }
 
         styles {
