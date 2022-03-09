@@ -121,7 +121,6 @@ workspace {
             }
 
             element argoCD {
-                icon "https://cncf-branding.netlify.app/img/projects/argo/icon/color/argo-icon-color.png"
             }
 
            element githubRepository {
